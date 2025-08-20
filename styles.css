@@ -1,0 +1,55 @@
+.tab {
+   display:table;
+   margin:auto;
+   text.align:left;
+}
+p {
+  color: rgb(166, 166, 166);
+  line-height: 1;
+  margin-top: 0.01em;
+}
+h3{
+  color: rgb(229, 229, 229);
+  margin-bottom: 0.01em;
+}
+
+body {
+  background-image: url("https://wallpaper-house.com/data/out/10/wallpaper2you_440812.jpg");
+}
+
+.border {
+  font-family: "Dancing Script", serif;
+  font-size: 100%;
+  color: rgb(166, 166, 166);
+  background-color: transparent;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  position: relative;
+  border-radius: 15%;
+  padding: 1em 2.7em;
+}
+.border::before {
+  content: " ╔═══ஓ๑♡๑ஓ═══╗";
+  position: absolute;
+  text-align: center;
+  top: -0.4em;
+  left: 0;
+  font-size: 1em;
+  color: rgb(229, 229, 229);
+}
+.border::after {
+  content: "╚═══ஓ๑♡๑ஓ═══╝"; /* 底部边框文字 */
+  position: absolute;
+  bottom: -0.4em;
+  text-align: center;
+  left: 0;
+  font-size: 1em;
+  color: rgb(229, 229, 229);
+}
+∩――――∩<br />
+|| ∧ ﾍ　 ||<br />
+|| (* ´ ｰ`) ZZzz<br />
+|ﾉ^⌒⌒づ`￣ ＼<br />
+(　ノ　　⌒ ヽ ＼<br />
+＼　　||￣￣￣￣￣||<br />
+　 ＼,ﾉ||<br />
