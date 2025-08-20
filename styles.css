@@ -18,6 +18,7 @@ body {
 }
 
 .border {
+   border:none;
   font-family: "Dancing Script", serif;
   font-size: 100%;
   color: rgb(166, 166, 166);
