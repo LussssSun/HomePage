@@ -21,22 +21,18 @@
   color: rgb(198, 139, 157);
 }
 .title {
-  font-family: "Aguafina Script", cursive;
+  font-family: "Oregano", cursive;
+  font-style: italic;
   font-size: 1.4em;
   color: rgb(217, 170, 182);
   margin-bottom: -0.5em;
 }
 .title_ {
-  font-family: "Aguafina Script", cursive;
+  font-family: "Oregano", cursive;
+  font-style: italic;
   font-size: 1.4em;
   color: rgb(203, 167, 181);
   margin-bottom: -0.5em;
-}
-.titleShip {
-  font-family: "Aguafina Script", cursive;
-  font-size: 1.4em;
-  margin-top: 1.2em;
-  color: rgb(203, 167, 181);
 }
 .text {
   font-family: "Playwrite US Modern", cursive;
@@ -132,16 +128,16 @@ h5 {
   grid-template-columns: 1.2fr 1.6fr;
   height: auto;
 }
+/*111111111111111*/
 .containersocial {
   display: grid;
-  padding-right: 1em;
+  padding-inline: 2em;
   place-items: center;
-  grid-template-columns: 1fr 1.3fr;
+  grid-template-columns: 1fr 1.1fr;
   height: auto;
 }
 .containergallery {
   display: grid;
-  place-items: center;
   grid-template-columns: 1fr 1fr;
   height: auto;
 }
@@ -177,11 +173,32 @@ h5 {
   height: 150px !important;
   object-fit: cover;
 }
+.imageFyolai1 {
+  width: 200px !important;
+  height: 150px !important;
+  object-fit: cover;
+}
 .imageFyolai2 {
   display: flex;
   align-items: left;
   width: 200px !important;
   height: 150px !important;
+  object-fit: cover;
+}
+.imageGallery1 {
+  width: 150px;
+  height: 200px;
+  margin-bottom: 1.5em;
+  object-fit: cover;
+}
+.imageGallery2 {
+  width: 200px;
+  height: 160px;
+  object-fit: cover;
+}
+.imageGallery3 {
+  width: 150px;
+  height: 155px;
   object-fit: cover;
 }
 /*buttons*/
@@ -242,6 +259,7 @@ h5 {
 
 /*border*/
 .border {
+  font-family: "Oregano", cursive;
   margin: 0;
   color: rgb(61, 37, 45);
   font-size: 1.6em;
@@ -260,8 +278,8 @@ h5 {
   padding: 0;
 }
 .bed_ {
-  font-family: "Allura", cursive;
-  font-size: 1.2em;
+  font-family: "Oregano", cursive;
+  font-size: 1.5em;
   margin-bottom: 0;
   color: rgb(192, 155, 167);
 }
@@ -288,7 +306,7 @@ h5 {
 body {
   min-height: 100vh; /* 保证整个屏幕都有背景 */
   margin: 0;
-  background-image: url("background.jpg");
+  background-image: url("background_lin.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
